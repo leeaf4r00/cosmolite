@@ -1,0 +1,3 @@
+2023-07-25 21:36:48,845 - ERROR - Ocorreu um erro:
+
+'Window' object has no attribute 'ler_evento'

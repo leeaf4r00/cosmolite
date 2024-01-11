@@ -1,0 +1,55 @@
+{
+    "keys": [
+      {
+        "key": "230620231-84842144515657874",
+        "type": "fiscal",
+        "files": ["fiscal_program.py"]
+      },
+      {
+        "key": "230620231-88541415145484848",
+        "type": "fiscal",
+        "files": ["fiscal_program.py"]
+      },
+      {
+        "key": "230620231-5647788484779893",
+        "type": "fiscal",
+        "files": ["fiscal_program.py"]
+      },
+      {
+        "key": "230620231-12312425434854341",
+        "type": "fiscal",
+        "files": ["fiscal_program.py"]
+      },
+      {
+        "key": "230620231-12351845454252312",
+        "type": "fiscal",
+        "files": ["fiscal_program.py"]
+      },
+      {
+        "key": "230620232-8478774545854545",
+        "type": "non-fiscal",
+        "files": ["non_fiscal_program.py"]
+      },
+      {
+        "key": "230620232-3434343435413454",
+        "type": "non-fiscal",
+        "files": ["non_fiscal_program.py"]
+      },
+      {
+        "key": "230620232-12312425434768678",
+        "type": "non-fiscal",
+        "files": ["non_fiscal_program.py"]
+      },
+      {
+        "key": "230620232-12321348443443154",
+        "type": "non-fiscal",
+        "files": ["non_fiscal_program.py"]
+      },
+      {
+        "key": "230620232-121351443413433243",
+        "type": "non-fiscal",
+        "files": ["non_fiscal_program.py"]
+      }
+    ]
+  }
+  

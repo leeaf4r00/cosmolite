@@ -1,0 +1,6 @@
+pysimplegui
+psutil
+pyperclip
+requests
+clipboard
+aiohttp

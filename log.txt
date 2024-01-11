@@ -1,0 +1,13 @@
+2023-07-17 20:47:27,057 - ERROR - Os campos não podem estar vazios.
+2023-07-17 20:47:33,184 - INFO - Dados exportados
+2023-07-17 20:47:34,065 - INFO - Relatório gerado
+2023-07-17 22:56:48,120 - INFO - Dados exportados
+2023-07-17 22:56:49,280 - INFO - Relatório gerado
+2023-07-17 22:56:50,040 - INFO - Relatório gerado
+2023-07-17 22:56:50,201 - INFO - Relatório gerado
+2023-07-17 22:56:50,736 - INFO - Relatório gerado
+2023-07-17 22:56:53,169 - INFO - Dados exportados
+2023-07-17 22:56:54,185 - INFO - Relatório gerado
+2023-07-17 22:56:54,385 - INFO - Relatório gerado
+2023-07-17 22:56:54,552 - INFO - Dados exportados
+2023-07-17 22:56:54,912 - INFO - Relatório gerado

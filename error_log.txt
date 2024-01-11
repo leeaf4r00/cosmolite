@@ -1,0 +1,53 @@
+1000: generic_error
+1001: value_error
+1002: type_error
+1003: empty_error
+1004: blank_ean_error
+2023-07-25 10:41:00,837 - ERROR - Traceback (most recent call last):
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 280, in main
+    open_cosmolite_window()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 132, in open_cosmolite_window
+    sys.exit()
+SystemExit
+
+2023-07-25 10:43:33,058 - ERROR - Traceback (most recent call last):
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 280, in main
+    open_cosmolite_window()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 132, in open_cosmolite_window
+    sys.exit()
+SystemExit
+
+2023-07-25 10:44:17,110 - ERROR - Traceback (most recent call last):
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 280, in main
+    open_cosmolite_window()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 126, in open_cosmolite_window
+    open_login_window()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 169, in open_login_window
+    open_janela_principal()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 199, in open_janela_principal
+    janela.run()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\janela_principal\janela_principal.py", line 28, in run
+    self.abrir_janela_principal()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\janela_principal\janela_principal.py", line 202, in abrir_janela_principal
+    button_actions[event]()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\janela_principal\janela_principal.py", line 281, in perform_exit
+    sys.exit()
+SystemExit
+
+2023-07-25 10:45:04,956 - ERROR - Traceback (most recent call last):
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 282, in main
+    open_cosmolite_window()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 126, in open_cosmolite_window
+    open_login_window()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 169, in open_login_window
+    open_janela_principal()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\cosmolite_app.py", line 199, in open_janela_principal
+    janela.run()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\janela_principal\janela_principal.py", line 28, in run
+    self.abrir_janela_principal()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\janela_principal\janela_principal.py", line 202, in abrir_janela_principal
+    button_actions[event]()
+  File "c:\Users\RR ATACADISTA\Documents\COSMOLITE\cosmolite\janela_principal\janela_principal.py", line 281, in perform_exit
+    sys.exit()
+SystemExit
+

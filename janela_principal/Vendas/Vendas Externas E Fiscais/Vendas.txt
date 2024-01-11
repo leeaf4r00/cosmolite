@@ -1,0 +1,65 @@
+import PySimpleGUI as sg
+
+def exibir_opcoes():
+    layout = [
+        [sg.Button("Ponto de Venda")],
+        [sg.Button("Listagem de Vendas")],
+        [sg.Button("Orçamentos")],
+        [sg.Button("Devolução")],
+        [sg.Button("Gráficos")],
+        [sg.Button("Comissão de Vendedores")],
+        [sg.Button("Consignação")],
+        [sg.Button("NFe PDF - Exportar e Salvar as notas fiscais emitidas e salvar Nota Fiscal Eletronica em PDF")],
+        [sg.Button("NFE XML - Exportar arquivos XML")],
+        [sg.Button("Relatório de Vendas")]
+    ]
+
+    janela_opcoes = sg.Window("Opções de Vendas", layout)
+
+    while True:
+        evento, valores = janela_opcoes.read()
+
+        if evento == sg.WINDOW_CLOSED:
+            break
+
+        # Adicione aqui a lógica para tratar os eventos de cada botão
+        
+        if evento == "Ponto de Venda":
+            sg.popup("Ponto de Venda selecionado")
+        elif evento == "Listagem de Vendas":
+            sg.popup("Listagem de Vendas selecionada")
+        elif evento == "Orçamentos":
+            sg.popup("Orçamentos selecionados")
+        elif evento == "Devolução":
+            sg.popup("Devolução selecionada")
+        elif evento == "Gráficos":
+            sg.popup("Gráficos selecionados")
+        elif evento == "Comissão de Vendedores":
+            sg.popup("Comissão de Vendedores selecionada")
+        elif evento == "Consignação":
+            sg.popup("Consignação selecionada")
+        elif evento == "NFe PDF - Exportar e Salvar as notas fiscais emitidas e salvar Nota Fiscal Eletronica em PDF":
+            sg.popup("NFe PDF selecionado")
+        elif evento == "NFE XML - Exportar arquivos XML":
+            sg.popup("NFE XML selecionado")
+        elif evento == "Relatório de Vendas":
+            sg.popup("Relatório de Vendas selecionado")
+
+    janela_opcoes.close()
+
+layout_principal = [
+    [sg.Button("Vendas", key="-VENDAS-")]
+]
+
+janela_principal = sg.Window("Tela Principal", layout_principal)
+
+while True:
+    evento, valores = janela_principal.read()
+
+    if evento == sg.WINDOW_CLOSED:
+        break
+
+    if evento == "-VENDAS-":
+        exibir_opcoes()
+
+janela_principal.close()
